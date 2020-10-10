@@ -31,14 +31,14 @@ else:
 updater = Updater(token=BOT_TOKEN, workers=1)
 dispatcher = updater.dispatcher
 
-print("If you need more help, join @GitGramChat in Telegram.")
+print("If you need more help, join @dark_cobra_support in Telegram.")
 
 
 def start(_bot, update):
     """/start message for bot"""
     message = update.effective_message
     message.reply_text(
-        "There is nothing here -_-.",
+        "Hello-_-.",
         parse_mode="markdown")
 
 
